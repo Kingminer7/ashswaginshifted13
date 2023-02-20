@@ -71,3 +71,5 @@ def test():
   except ValueError: 
     print("An error occurred. Restarting...")
     test()
+
+test()
